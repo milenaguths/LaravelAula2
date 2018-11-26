@@ -18,9 +18,9 @@
 
 <form action="/atividades" method="post">
 	{{ csrf_field() }}
-	Título: 		<input type="text" name="title"> 	     <br>
-	Descrição:		<input type="text" name="description">   <br>
-	Agendado para:  <input type="datetime-local" name="scheduledto">   <br>
+	Nome: 		<input type="text" name="title"> 	     <br>
+	Endereço:		<input type="text" name="description">   <br>
+	Telefone: 		<input type="text" name="title"> 	     <br>
 	<input type="submit" value="Salvar">
 </form>
 @endsection

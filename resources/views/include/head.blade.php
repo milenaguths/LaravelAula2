@@ -1,8 +1,8 @@
 <meta charset="utf-8">
-<meta name="description" content="Sistema de gerenciamento de Atividades">
-<meta name="author" content="Tiago">
+<meta name="description" content="MEM Company">
+<meta name="author" content="Milena">
 
-<title>Gerenciador de Atividades</title>
+<title>MEM Company</title>
 
 <!-- load fontwesome -->
 <script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>

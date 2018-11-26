@@ -48,13 +48,11 @@ class AtividadeController extends Controller
         $messages = array(
             'title.required' => 'É obrigatório um título para a atividade',
             'description.required' => 'É obrigatória uma descrição para a atividade',
-            'scheduledto.required' => 'É obrigatório o cadastro da data/hora da atividade',
         );
         //vetor com as especificações de validações
         $regras = array(
             'title' => 'required|string|max:255',
             'description' => 'required',
-            'scheduledto' => 'required|string',
         );
         //cria o objeto com as regras de validação
         $validador = Validator::make($request->all(), $regras, $messages);
@@ -66,12 +64,12 @@ class AtividadeController extends Controller
         }
         //se passou pelas validações, processa e salva no banco...
         $obj_Atividade = new Atividade();
-        $obj_Atividade->title =       $request['title'];
-        $obj_Atividade->description = $request['description'];
-        $obj_Atividade->scheduledto = $request['scheduledto'];
+        $obj_Atividade->name =       $request['name'];
+        $obj_Atividade->endereco = $request['description'];
+        $obj_Atividade->telefone = $request['description'];
         $obj_Atividade->user_id     = Auth::id();
         $obj_Atividade->save();
-        return redirect('/atividades')->with('success', 'Atividade criada com sucesso!!');
+        return redirect('/atividades')->with('success', 'Cliente adicionado com sucesso!!');
     }
     /**
      * Display the specified resource.
@@ -139,7 +137,8 @@ class AtividadeController extends Controller
         $obj_atividade = Atividade::findOrFail($id);
         $obj_atividade->title =       $request['title'];
         $obj_atividade->description = $request['description'];
-        $obj_atividade->scheduledto = $request['scheduledto'];
+        $obj_atividade->endereco = $request['description'];
+        $obj_atividade->telefone = $request['description'];
         $obj_atividade->user_id     = Auth::id();
         $obj_atividade->save();
         return redirect('/atividades')->with('success', 'Atividade alterada com sucesso!!');

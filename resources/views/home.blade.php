@@ -20,8 +20,8 @@
         </div>
     </div><br>
     <center>
-        <h4><a href="/atividades">Atividades</a></h4>
-        <h4><a href="/mensagens">Mensagens</a></h4>
+        <h4><a href="/atividades">Clientes</a></h4>
+        <h4><a href="/mensagens">Processos</a></h4>
     </center>
 </div>
 @endsection

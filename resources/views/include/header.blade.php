@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<a class="navbar-brand" href="/">Gerenciador de Atividades</a>
+	<a class="navbar-brand" href="/">MEM Company</a>
 	
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -13,16 +13,16 @@
 			
 
 			<li class="nav-item">
-				<a class="nav-link" href="/atividades" id="help" aria-haspopup="true" aria-expanded="false">Listar Atividades</a>
+				<a class="nav-link" href="/atividades" id="help" aria-haspopup="true" aria-expanded="false">Clientes</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/atividades/create" id="help" aria-haspopup="true" aria-expanded="false">Criar Atividades</a>
+				<a class="nav-link" href="/atividades/create" id="help" aria-haspopup="true" aria-expanded="false">Cadastrar Clientes</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/mensagens" id="help" aria-haspopup="true" aria-expanded="false">Listar Mensagens</a>
+				<a class="nav-link" href="/mensagens" id="help" aria-haspopup="true" aria-expanded="false">Processos</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/mensagens/create" id="help" aria-haspopup="true" aria-expanded="false">Criar Mensagens</a>
+				<a class="nav-link" href="/mensagens/create" id="help" aria-haspopup="true" aria-expanded="false">Cadastrar Processos</a>
 			</li>
 		</ul>
 
